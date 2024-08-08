@@ -1,13 +1,14 @@
 # Emoticon
-Emotion Recognition Software with UI. 
-Two modes: Diagnosis and Live. 
 
-  Diagnosis Mode evaluates user emotion over a minute and generates report with a graph, emoji of the most prominent emotion, and editable comments, Report History window to access all 
-  previous reports. 
+Emotion Recognition Software with UI featuring two modes: Diagnosis and Live.
 
- Live Mode displays emoji of average emotion with face cam on screen and changes in real time based on detected emotion. 
+Diagnosis Mode: Evaluates user emotion over a minute, generating a report with a graph, the most prominent emotion emoji, editable comments, and a Report History window to access all previous reports.
+Live Mode: Displays an emoji of the average emotion with a face cam on screen, updating in real-time based on detected emotion.
+Supports non-Keras TensorFlow models, and image directories must be customized per device. Developed in Python.
 
-Supports non-Keras TensorFlow models and directories of images must be changed. 
-Made in Python. 
-Requesting help to improve UI, AI Model and improve the app usability overall. 
-Need help to make directory to files work with all devices.
+Requesting assistance to:
+
+Improve UI
+Enhance AI model
+Boost overall app usability
+Ensure directory compatibility across all devices
