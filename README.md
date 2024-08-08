@@ -1,4 +1,4 @@
-# Emoticon (Download all folders)
+# Emoticon
 
 Emotion Recognition Software with UI
 
