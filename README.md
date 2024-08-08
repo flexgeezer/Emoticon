@@ -13,8 +13,8 @@ Live Mode: Displays an emoji of the average emotion with a face cam on screen, u
 
 Both modes can be stopped by pressing ESC when cam is on, however a report will still be generated during diagnosis mode
 
-Supports non-Keras TensorFlow models, 
-directories of most folders and external files must be changed for your device. 
+Supports non-Keras TensorFlow models that use Supervised Learning.
+Directories of most folders and external files must be changed for your device. 
 Made in Python
 
 Requesting assistance to:
