@@ -1,4 +1,5 @@
-# Emoticon
+# Emoticon 
+# (Make all changes to uploaded .py file reposit and download the .zip file for device use and testing)
 
 Emotion Recognition Software with UI
 
