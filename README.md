@@ -10,7 +10,8 @@ Diagnosis Mode: Evaluates user emotion over a minute, generating a report with a
 
 Live Mode: Displays an emoji of the average emotion with a face cam on screen, updating in real-time based on detected emotion.
 
-Supports non-Keras TensorFlow models, and directories of images must be changed for your device. 
+Supports non-Keras TensorFlow models, 
+directories of images in the emoji dictionary (emoji_dict) must be changed for your device. 
 Made in Python
 
 Requesting assistance to:
