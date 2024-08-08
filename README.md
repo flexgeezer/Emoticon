@@ -1,5 +1,5 @@
 # Emoticon 
-# (Download the .zip file for device use and changes. Update all changes to code to the uploaded .py file. Use your own model)
+# (Download the .zip file for device use and changes. Use your own model. Update all changes to code to the uploaded .py file.)
 
 Emotion Recognition Software with UI
 
