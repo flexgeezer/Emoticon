@@ -13,12 +13,15 @@ from tkinter import simpledialog
 
 LARGEFONT = ("Verdana", 35)
 
+# Change all redirectories
+
 emoji_dict = {
     0: "/Users/Admin/PycharmProjects/Emoticon/Emojis/Emoji0.png",
     1: "/Users/Admin/PycharmProjects/Emoticon/Emojis/Emoji1.png",
     2: "/Users/Admin/PycharmProjects/Emoticon/Emojis/Emoji2.png",
     3: "/Users/Admin/PycharmProjects/Emoticon/Emojis/Emoji3.png"
 }
+
 
 class EmoticonApp(tk.Tk):
 
@@ -405,7 +408,7 @@ class Live_Mode():
         np.set_printoptions(suppress=True)
 
         # Load the model
-        model = tf.saved_model.load("model.savedmodel")
+        model = tf.saved_model.load("model.savedmodel") # Change placeholder to tensorflow emotional vision model 
 
         # Load the labels
         class_names = open("labels.txt", "r").readlines()
@@ -508,7 +511,7 @@ class Diagnosis_Mode():
         global emoji_dict
 
         # Load the model
-        model = tf.saved_model.load("/Users/Admin/PycharmProjects/Emoticon/model.savedmodel")
+        model = tf.saved_model.load('model.savedmodel')# Change placeholder to tensorflow emotional vision model 
         # Load the labels
         class_names = open("/Users/Admin/PycharmProjects/Emoticon/labels.txt", "r").readlines()
 
