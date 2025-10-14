@@ -1,5 +1,5 @@
 # Emoticon 
-# (Use your own model. Update all changes to code to the uploaded .py file.)
+# (Updated, made own Tensorflow Model)
 
 Emotion Recognition Software with UI
 
