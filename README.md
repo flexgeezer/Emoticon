@@ -11,9 +11,11 @@ Built with Python, TensorFlow, OpenCV, and Tkinter.
 - **Report History** — browse past reports
 
 ## Setup & Run
+Need to install Tkinter beforehand
 
 ```bash
 pip install -r requirements.txt
+python model/emoticonmodel.py
 python app.py
 ```
 
