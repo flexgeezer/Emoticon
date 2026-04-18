@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# TensorFlow model (large binary — generate locally with emoticonmodel.py)
+model/model.keras
+model/*.keras
+
+# User report data
+Emotive Data/*.csv
+
+# IDEs
+.idea/
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db

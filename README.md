@@ -1,30 +1,22 @@
-# Emoticon 
-# (Updated, made own Tensorflow Model)
+# Emoticon
 
-Emotion Recognition Software with UI
+Real-time emotion recognition desktop app — detects **Happy, Sad, Confused, Angry** from a webcam or video file.
 
-Detects 4 Emotions: Happy, Angry, Sad, Confused
+Built with Python, TensorFlow, OpenCV, and Tkinter.
 
-Features two modes: Diagnosis & Live.
+## Modes
 
-Diagnosis Mode: Evaluates user emotion over a minute, generating a report with a graph, the most prominent emotion emoji, editable comments, and a Report History window to access all previous reports. 
+- **Live** — emoji + colour overlay in real time
+- **Diagnosis** — 60-second session, saves a report with emotion graph and comments
+- **Report History** — browse past reports
 
-Live Mode: Displays an emoji of the average emotion with a face cam on screen, updating in real-time based on detected emotion.
+## Setup & Run
 
-Both modes can be stopped by pressing ESC when cam is on, however a report will still be generated during diagnosis mode
+```bash
+pip install -r requirements.txt
+python app.py
+```
 
-Supports non-Keras TensorFlow models that use Supervised Learning.
-Directories of most folders and external files must be changed for your device. 
-Made in Python
+## Model
 
-Requesting assistance to:
-
- Improve UI
-
- Create more accurate model
-
- Ensure directory compatibility across all devices
-
- Need to make a feature that diagnosis prerecorded video
-
-
+MobileNetV2 backbone fine-tuned for 4 emotion classes. Lives in `model/`. To retrain, update the dataset and re-run `model/emoticonmodel.py`.
